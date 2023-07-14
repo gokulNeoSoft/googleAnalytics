@@ -5,7 +5,9 @@ Installation
 To install the necessary dependencies, run the following command:
 
 Copy code
-npm install
+
+#npm install
+
 Set Google Service Account Key
 Before running the code, you need to set the Google service account key as an environment variable. Follow the steps below:
 
@@ -17,13 +19,19 @@ Open a terminal and navigate to the project directory.
 
 Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to the path of your service account key file using the following command:
 
-export GOOGLE_APPLICATION_CREDENTIALS=<path-to-key>
+
+  
+#export GOOGLE_APPLICATION_CREDENTIALS=<path-to-key>
 Replace <path-to-key> with the actual path to your service account key file.
+
+
 
 Run the Application
 To run the application, execute the following command:
 
-node index.js
+
+#node index.js
+
 This will start the application and perform the necessary Google Analytics operations.
 
 Feel free to modify the code in index.js to suit your specific requirements.
